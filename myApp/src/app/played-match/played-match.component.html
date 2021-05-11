@@ -1,0 +1,31 @@
+<div class="image">
+    <img src="assets/image/c.jpg" class="img">
+</div>
+
+<div class="title">
+    <h2>Played Matches List Sorted By Date</h2>
+  </div>
+    <br>
+    <br>
+    <hr id="hr">
+    <div class="sub">
+    <table>
+      <thead>
+        <th>Match Date</th>
+        <th>Club A Name</th>
+        <th>Club A Score</th>
+        <th>Club B Name</th>
+        <th>Club B Score</th>
+      
+      </thead>
+      <tr *ngFor="let MatchesPlayed of playedMatchTable">
+        <td class="date">{{MatchesPlayed.matchDate}}</td>
+        <td>{{MatchesPlayed.clubA.nameOfTheClub}}</td>
+        <td>{{MatchesPlayed.clubAScore}}</td>
+        <td>{{MatchesPlayed.clubB.nameOfTheClub}}</td>
+        <td>{{MatchesPlayed.clubBScore}}</td>
+    
+     
+      </tr>
+  </table>
+  </div>

@@ -1,0 +1,36 @@
+.intro{
+    position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.img{
+
+    position:absolute;
+    top: 12px;
+    left: 75px;
+    width: 55px;
+    height: 55px;
+    border: px solid rgb(253, 173, 0);
+
+}
+
+.logo{
+    padding: 10px 0px;
+    left: 20%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+  

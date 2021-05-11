@@ -1,0 +1,42 @@
+
+<div class="image">
+    <img src="assets/image/d.jpg" class="img">
+  </div>
+  
+  <div class="title">
+    <h2>League Table Sorted By Scored Goals</h2>
+  </div>
+    <br>
+    <br>
+    <hr id="hr">
+    <div class="sub">
+    <table>
+      <thead>
+      <th>Club Name</th>
+      <th>Location</th>
+      <th>Registration No</th>
+      <th>Win</th>
+      <th>Draw</th>
+      <th>Defeat</th>
+      <th>Goals Received</th>
+      <th>Goals Scored</th>
+      <th>Points</th>
+      <th>Matches</th>
+      <th>Goals Defference</th>
+      </thead>
+      <tr *ngFor="let club of goalTable">
+        <td>{{club.nameOfTheClub}}</td>
+        <td>{{club.locationOfTheClub}}</td>
+        <td>{{club.registrationNumber}}</td>
+        <td>{{club.noOfWin}}</td>
+        <td>{{club.noOfDraw}}</td>
+        <td>{{club.noOfDefeat}}</td>
+        <td>{{club.numberOfGoalsReceived}}</td>
+        <td>{{club.numberOfGoalsScored}}</td>
+        <td>{{club.numberOfPoints}}</td>
+        <td>{{club.numberOFMatches}}</td>
+        <td>{{club.goalDifference}}</td>
+      </tr>
+  </table>
+  </div>
+  

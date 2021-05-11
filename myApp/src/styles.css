@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 20px;
+}
+
+.font{
+    font-size: 20px;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(37, 34, 32);
+    padding: 2em 0;
+    
+  
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-style: oblique;
+
+}
+
+
+nav{
+    float: right;
+    
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+   
+}
+
+li a{
+    padding: 1em;
+    
+    
+}
+li a:hover{
+    background: #fdb52e;
+}
+
+h1{
+    margin-top: 2em;
+}
+html, body { height: 100%; }
+
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+ }
